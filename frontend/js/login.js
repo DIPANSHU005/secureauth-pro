@@ -18,7 +18,7 @@ loginForm.addEventListener("submit", async (e) => {
 
     try {
 
-        const response = await fetch("http://localhost:5000/api/auth/login", {
+        const response = await fetch("https://secureauth-pro-qfqm.onrender.com", {
 
             method: "POST",
 

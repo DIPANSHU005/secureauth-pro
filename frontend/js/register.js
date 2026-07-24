@@ -15,7 +15,7 @@ button.innerHTML="Creating Account...";
 
     const password = document.getElementById("password").value;
 
-    const response = await fetch("http://localhost:5000/api/auth/register",{
+    const response = await fetch("https://secureauth-pro-qfqm.onrender.com",{
 
         method:"POST",
 

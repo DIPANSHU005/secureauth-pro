@@ -4,7 +4,7 @@ if (!token) {
     window.location.href = "login.html";
 }
 
-fetch("http://localhost:5000/api/auth/profile", {
+fetch("https://secureauth-pro-qfqm.onrender.com", {
 
     method: "GET",
 

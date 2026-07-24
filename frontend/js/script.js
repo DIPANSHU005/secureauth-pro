@@ -10,7 +10,7 @@ if (registerForm) {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
 
-        const response = await fetch("http://localhost:5000/api/auth/register", {
+        const response = await fetch("https://secureauth-pro-qfqm.onrender.com/api/auth/register", {
 
             method: "POST",
 
