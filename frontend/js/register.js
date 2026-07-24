@@ -3,11 +3,7 @@ const form = document.getElementById("registerForm");
 form.addEventListener("submit", async (e) => {
 
     e.preventDefault();
-    const button = document.querySelector(".primary-btn");
-
-button.disabled = true;
-
-button.innerHTML="Creating Account...";
+    
 
     const name = document.getElementById("name").value;
 
@@ -15,7 +11,7 @@ button.innerHTML="Creating Account...";
 
     const password = document.getElementById("password").value;
 
-    const response = await fetch("https://secureauth-pro-qfqm.onrender.com",{
+    const response = await fetch("https://secureauth-pro-qfqm.onrender.com/api/auth/register",{
 
         method:"POST",
 
